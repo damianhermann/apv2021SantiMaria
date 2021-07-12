@@ -1,0 +1,51 @@
+/*sintaxis
+selector {
+    propiedad: valor
+}
+*/
+body {
+    background-color: wheat;
+}
+h1{
+    color: whitesmoke;
+    background-color: rgba(255,255,255,0.3);
+}
+h1, h2, h3, h4 {
+    font-family: Arial, Helvetica, san-serif
+}
+h1{
+    font-family:'Balsamiq Sans', cursive;
+    font-size: 50px;
+}
+h2, h3, h4{
+    font-family:'Bebas Neue', cursive; 
+}
+p{
+    font-family:'Baloo Tammudu 2', cursive; 
+}
+
+/*fondo del encabezado*/
+#encabezado {
+    background-image: url("img/chochi.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    
+    
+}/*antes era div, al ponerle id encabezado ahora va hash encabezado, la nueva identidad*/
+
+/*los class vamos a usarlos para decorar*/
+/*Los id se usan para nombrar secciones y no se repiten
+pero le puedo poner al lado un class, ejemplo: destacado
+ y se va a poner todo rojo porque ya tengo un destacado en css*/
+.destacado{
+     color: red;
+}
+
+.capitalizar{
+     font-size: 40px;
+} /*estas clases las voy a poder repetir en todo el html*/
+  /*span es una etiqueta auxiliar de seleccion individual se le puede poner class*/
+  /*un de las diferencias (class/id) es que en class puedo combinar clases ej: capitalizar y destacado.
+  la otra es que las puedo repetir*/
